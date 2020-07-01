@@ -7,3 +7,10 @@ body {
   font-family: 'Roboto Mono', monospace;
   padding: 20px 60px;
 }
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #4a4a4a;
+}

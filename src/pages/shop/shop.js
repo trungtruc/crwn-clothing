@@ -261,7 +261,7 @@ class Shop extends Component {
       <div className='shop-page'>
         {
           this.state.collections.map(collection => (
-            <PreviewCollection items={collection.items} title={collection.title}/>
+            <PreviewCollection key={collection.id} items={collection.items} title={collection.title}/>
           ))
         }
       </div>
