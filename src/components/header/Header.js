@@ -10,7 +10,8 @@ const Header = (props) => (
     </Link>
     <div className='options'>
       <Link to='/shop'>Shop</Link>
-      <Link to='/'>Contact</Link>
+      <Link to='/contact'>Contact</Link>
+      <Link to='/signin'>Sign in</Link>
     </div>
   </div>
 );
